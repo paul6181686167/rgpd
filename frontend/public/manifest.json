@@ -1,0 +1,70 @@
+{
+  "short_name": "Unsubscribe App",
+  "name": "Application de Désinscription Automatique",
+  "description": "Désinscrivez-vous automatiquement des newsletters et abonnements emails indésirables",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "lang": "fr",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scanner emails",
+      "short_name": "Scanner",
+      "description": "Scanner automatiquement vos emails pour détecter les abonnements",
+      "url": "/?action=scan",
+      "icons": [
+        {
+          "src": "scan-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Voir abonnements",
+      "short_name": "Abonnements",
+      "description": "Voir la liste des abonnements détectés",
+      "url": "/?action=subscriptions",
+      "icons": [
+        {
+          "src": "subscriptions-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
